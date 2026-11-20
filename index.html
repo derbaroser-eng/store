@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AURUM Store - real tools, instant checkout</title>
+<meta name="description" content="13 tested digital products with live Stripe checkout. No account, no subscriptions.">
+<style>
+:root{--bg:#0b0f14;--fg:#e6edf3;--dim:#9aa7b4;--acc:#4cc2ff;--card:#11161d;--line:#21262d}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);
+font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+.wrap{max-width:980px;margin:0 auto;padding:56px 24px}
+h1{font-size:2.2rem;margin:0 0 10px}p.lede{color:var(--dim);margin:0 0 34px;max-width:640px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px;
+transition:border-color .15s,transform .15s}
+.card:hover{border-color:var(--acc);transform:translateY(-2px)}
+.card h3{margin:0 0 6px;font-size:1.02rem}.card p{color:var(--dim);font-size:.9rem;margin:0 0 12px}
+.price{color:var(--acc);font-weight:700;font-size:1.1rem;margin:0 0 12px}
+.actions{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.btn{background:var(--acc);color:#04121d;font-weight:700;padding:8px 16px;
+border-radius:8px;font-size:.9rem;text-decoration:none}
+.btn.alt{background:transparent;color:var(--acc);border:1px solid var(--acc)}
+.details{color:var(--dim);font-size:.85rem}
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+font-size:.85rem;color:var(--dim)}
+</style></head><body><div class="wrap">
+<h1>The AURUM Store</h1>
+<p class="lede">13 products, built and tested. Every checkout is a live Stripe
+payment link verified against the signed catalogue - instant delivery, no account.</p>
+<div class="grid" data-products="13">
+<article class="card" data-slug="support-triage">
+  <h3>support-triage</h3>
+  <p>Classify support messages into bug, feature request, urgent, or noise.</p>
+  <div class="price">EUR49 one-time</div>
+  <div class="actions">
+    <a class="btn" href="https://buy.stripe.com/4gMaF0b2a9skdTb35C4ko0J">Buy now</a>
+    <a class="details" href="https://derbaroser-eng.github.io/support-triage/">Details</a>
+  </div>
+</article>
+<article class="card" data-slug="dunning">
+  <h3>dunning</h3>
+  <p>Failed payment recovery decisions. Retry schedule, email template, escalation.</p>
+  <div class="price">EUR49 one-time</div>
+  <div class="actions">
+    <a class="btn" href="https://buy.stripe.com/fZubJ40nwgUM6qJ6hO4ko0K">Buy now</a>
+    <a class="details" href="https://derbaroser-eng.github.io/dunning/">Details</a>
+  </div>
+</article>
+<article class="card" data-slug="contract-extractor">
+  <h3>contract-extractor</h3>
+  <p>Extract billing fields from plain-text contracts.</p>
+  <div class="price">EUR49 one-time</div>
+  <div class="actions">
+    <a class="btn" href="https://buy.stripe.com/9B614q2vE33WbL3gWs4ko0L">Buy now</a>
+    <a class="details" href="https://derbaroser-eng.github.io/contract-extractor/">Details</a>
+  </div>
+</article>
+<article class="card" data-slug="freelance-tracker">
+  <h3>freelance-tracker</h3>
+  <p>Lightweight CLI CRM for freelancers. Local SQLite, no cloud.</p>
+  <div class="price">EUR29 one-time</div>
+  <div class="actions">
+    <a class="btn" href="https://buy.stripe.com/fZu9AW2vE9sk7uN7lS4ko0M">Buy now</a>
+    <a class="details" href="https://derbaroser-eng.github.io/freelance-tracker/">Details</a>
+  </div>
+</article>
+<article class="card" data-slug="receipt-processor">
+  <h3>receipt-processor</h3>
+  <p>Extract fields from vendor receipt emails.</p>
+  <div class="price">EUR49 one-time</div>
+  <div class="actions">
+    <a class="btn" href="https://buy.stripe.com/4gM6oKc6e4809CVbC84ko0N">Buy now</a>
+    <a class="details" href="https://derbaroser-eng.github.io/receipt-processor/">Details</a>
+  </div>
+</article>
+<article class="card" data-slug="data-router">
+  <h3>data-router</h3>
+  <p>Rename, remove, and compute fields in JSON data.</p>
+  <div class="price">EUR49 one-time</div>
+  <div class="actions">
+    <a class="btn" href="https://buy.stripe.com/7sYfZkc6e33W16p5dK4ko0O">Buy now</a>
+    <a class="details" href="https://derbaroser-eng.github.io/data-router/">Details</a>
+  </div>
+</article>
+<article class="card" data-slug="scope-detector">
+  <h3>scope-detector</h3>
+  <p>Flag scope creep before it kills your margin.</p>
+  <div class="price">EUR49 one-time</div>
+  <div class="actions">
+    <a class="btn" href="https://buy.stripe.com/7sYeVg5HQdIA7uN9u04ko0P">Buy now</a>
+    <a class="details" href="https://derbaroser-eng.github.io/scope-detector/">Details</a>
+  </div>
+</article>
+<article class="card" data-slug="invoice-extractor">
+  <h3>invoice-extractor</h3>
+  <p>Extract fields from PDF invoices.</p>
+  <div class="price">EUR49 one-time</div>
+  <div class="actions">
+    <a class="btn" href="https://buy.stripe.com/8x26oKdaiawoeXfcGc4ko0Q">Buy now</a>
+    <a class="details" href="https://derbaroser-eng.github.io/invoice-extractor/">Details</a>
+  </div>
+</article>
+<article class="card" data-slug="prospect-research">
+  <h3>prospect-research</h3>
+  <p>Automate prospect research for outbound sales.</p>
+  <div class="price">EUR49 one-time</div>
+  <div class="actions">
+    <a class="btn" href="https://buy.stripe.com/4gM8wS6LUbAseXffSo4ko0R">Buy now</a>
+    <a class="details" href="https://derbaroser-eng.github.io/prospect-research/">Details</a>
+  </div>
+</article>
+<article class="card" data-slug="aurum-verify">
+  <h3>aurum-verify</h3>
+  <p>x402 pay-per-call claim verification. Evidence receipts.</p>
+  <div class="price">EUR 0.05 per verification</div>
+  <div class="actions">
+    <a class="btn" href="https://buy.stripe.com/7sY00m5HQcEw5mFdKg4ko0I">Buy now</a>
+    <a class="details" href="https://derbaroser-eng.github.io/aurum-verify/">Details</a>
+  </div>
+</article>
+<article class="card" data-slug="email-handler">
+  <h3>email-handler</h3>
+  <p>Classify email replies into actionable buckets for workflow automation.</p>
+  <div class="price">EUR29 one-time</div>
+  <div class="actions">
+    <a class="btn" href="https://buy.stripe.com/14A7sO6LU7kc6qJdKg4ko0x">Buy now</a>
+    <a class="btn alt" href="https://buy.stripe.com/cNi7sO1rAbAs4iB9u04ko0H">Name your price</a>
+    <a class="details" href="https://derbaroser-eng.github.io/email-handler/">Details</a>
+  </div>
+</article>
+<article class="card" data-slug="shellguard">
+  <h3>shellguard</h3>
+  <p>Execute untrusted input as argv. Kills shell injection. Offline license keys.</p>
+  <div class="price">EUR49 one-time</div>
+  <div class="actions">
+    <a class="btn" href="https://buy.stripe.com/00weVg5HQawocP77lS4ko0S">Buy now</a>
+    <a class="btn alt" href="https://buy.stripe.com/aFafZk3zIbAs16p7lS4ko0T">Name your price</a>
+    <a class="details" href="https://derbaroser-eng.github.io/shellguard/">Details</a>
+  </div>
+</article>
+<article class="card" data-slug="null-tide">
+  <h3>NULL TIDE</h3>
+  <p>The city that remembers water. A 12-minute browser god-elegy.</p>
+  <div class="price">$5 one-time - Tidekeeper Edition</div>
+  <div class="actions">
+    <a class="btn" href="https://buy.stripe.com/5kQ5kGeemawo5mFay44ko0U">Buy now</a>
+    <a class="details" href="https://derbaroser-eng.github.io/null-tide/">Details</a>
+  </div>
+</article>
+</div>
+<footer><p>Payments are processed by Stripe. No product on this page is a
+simulation; each links to a live, verified Stripe checkout session.</p></footer>
+</div></body></html>
