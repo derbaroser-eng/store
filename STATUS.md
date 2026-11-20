@@ -10,5 +10,7 @@
 - published: repo `derbaroser-eng/store` created (public), commit d90626c pushed, Pages enabled on master:/.
 - live: https://derbaroser-eng.github.io/store/ -> HTTP 200 after 4 polls; 13 cards, 15 checkout links, data-products=13.
 
+- cross-link shipped: `products/index.html` now links to the store; 10/10 suite tests OK; `derbaroser-eng/products` commit ecbba3dd63b3; live /products/ -> 13 cards, 1 store link, 0 stale claims.
+
 ## Next concrete step
 - Drive traffic to the storefront; post the store URL where the suite index and launch docs already point.
